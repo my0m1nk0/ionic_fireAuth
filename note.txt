@@ -1,0 +1,13 @@
+ionic start fireAuth blank --type=angular
+
+cd ./fireAuth
+
+ionic g page login
+ionic g service services/auth
+ionic g service services/avatar
+
+#for image upload with camera
+npm i @capacitor/camera
+npm i @ionic/pwa-elements
+
+ng add @angular/fire

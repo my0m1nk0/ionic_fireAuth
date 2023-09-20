@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nsocial-e1ee9": {
+      "hosting": {
+        "app": [
+          "nsocial-e1ee9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "nsocial-e1ee9"
+  }
+}
